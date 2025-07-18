@@ -16,4 +16,9 @@ public class DemoController {
     public String readData(){
       return   messageUtils.message();
     }
+
+    @GetMapping("/api2")
+    public String readMessage(){
+        return   "new api 1";
+    }
 }
