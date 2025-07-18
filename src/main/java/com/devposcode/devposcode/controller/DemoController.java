@@ -21,4 +21,9 @@ public class DemoController {
     public String readMessage(){
         return   "new api 1";
     }
+
+    @GetMapping("/api3")
+    public String readThird(){
+        return   "new api 3";
+    }
 }
